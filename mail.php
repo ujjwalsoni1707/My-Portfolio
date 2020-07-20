@@ -1,10 +1,10 @@
 <?php
 
 if (isset($_POST['submit'])){
-	$name=$_POST['name'];
-	$email=$_POST['email'];
-	$sub=$_POST['subject'];
-	$msg=$_POST['message'];
+	echo $name=$_POST['name'];
+	echo $email=$_POST['email'];
+	echo $sub=$_POST['subject'];
+	echo $msg=$_POST['message'];
 
 	$to= 'ujjwalsoni1707@gmail.com';
 	$subject= $sub;
